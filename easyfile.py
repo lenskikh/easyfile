@@ -5,11 +5,11 @@ def readfile(file):
     return thewholefile
 
 def savenew(file,data):
-    filehandle = open (file, 'a')
+    filehandle = open (file, 'x')
     filehandle.write(data)
     filehandle.close()
 
 def saveappend(file,data):
-    filehandle = open (file, 'a')
+    filehandle = open (file, 'a+')
     filehandle.write(data)
     filehandle.close()
