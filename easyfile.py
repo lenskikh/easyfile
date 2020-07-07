@@ -4,7 +4,7 @@ def readfile(file):
     filehandle.close()
     return thewholefile
 
-def savefile(file,data):
+def savenew(file,data):
     filehandle = open (file, 'a')
     filehandle.write(data)
     filehandle.close()
