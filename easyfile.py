@@ -4,6 +4,12 @@ def readfile(file):
     filehandle.close()
     return thewholefile
 
+def readline(file):
+    filehandle = open (file, 'r')
+    thewholefile = filehandle.readlines()
+    filehandle.close()
+    return thewholefile
+
 def savenew(file,data):
     filehandle = open (file, 'x')
     filehandle.write(data)
