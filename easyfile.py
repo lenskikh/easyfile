@@ -15,6 +15,7 @@ def savenew(file,data):
     filehandle.write(data)
     filehandle.close()
 
+#append data in end file
 def saveappend(file,data):
     filehandle = open (file, 'a+')
     filehandle.write(data)
