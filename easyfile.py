@@ -1,11 +1,11 @@
 def readfile(file):
-    filehandle = open (file, 'r')
+    filehandle = open (file, 'r', encoding="utf8")
     thewholefile = filehandle.read()
     filehandle.close()
     return thewholefile
 
 def readline(file):
-    filehandle = open (file, 'r')
+    filehandle = open (file, 'r', encoding="utf8")
     thewholefile = filehandle.readlines()
     filehandle.close()
     return thewholefile
