@@ -1,0 +1,3 @@
+This way, we are guaranteeing that the file is properly closed even if an exception is raised that causes program flow to stop.
+The best way to close a file is by using the with statement. This ensures that the file is closed when the block inside the with statement is exited.
+We don't need to explicitly call the close() method. It is done internally.

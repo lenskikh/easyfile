@@ -1,4 +1,4 @@
 from easyfile import *
 
-data = readfile("The Chaplet of Pearls.txt")
-savenew("test1.txt",data)
+data = readfile("example.txt")
+savenew("test4.txt",data)
